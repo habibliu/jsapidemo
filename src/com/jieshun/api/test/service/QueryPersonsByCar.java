@@ -30,7 +30,7 @@ public class QueryPersonsByCar extends APIService {
 
 	@Override
 	protected String buildRequestParam() {
-		Properties prop = ConfigHelper.getProperties(baseDir+"personinfo/bycar/querypersonsbycar");
+		Properties prop = ConfigHelper.getProperties(baseDir+"querypersonsbycar");
 
 		// 构造请求参数对象
 		JsonObject jsonParam = new JsonObject();

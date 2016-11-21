@@ -30,7 +30,7 @@ public class ConfigHelper {
 			return cached.get(fileName);
 		}
 		//否则，从文件系统加载及缓存起来
-		Properties prop=loadProperties("config/basic/"+fileName);
+		Properties prop=loadProperties("config/"+fileName);
 		if(prop!=null){
 			cached.put(fileName, prop);
 		}
