@@ -30,7 +30,7 @@ public class QueryDoors extends APIService{
 	@Override
 	protected String buildRequestParam() {
 		// TODO Auto-generated method stub
-		Properties prop = ConfigHelper.getProperties(baseDir+"app/querydoors");
+		Properties prop = ConfigHelper.getProperties(baseDir+"querydoors");
 
 		// 构造请求参数对象
 		JsonObject jsonParam = new JsonObject();

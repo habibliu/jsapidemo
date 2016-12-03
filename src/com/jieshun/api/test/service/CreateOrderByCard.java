@@ -34,7 +34,7 @@ public class CreateOrderByCard extends APIService {
 	@Override
 	protected String buildRequestParam() {
 		// TODO Auto-generated method stub
-		Properties prop = ConfigHelper.getProperties(baseDir+"payment/scan/createorderbycard");
+		Properties prop = ConfigHelper.getProperties(baseDir+"createorderbycard");
 
 		// 构造请求参数对象
 		JsonObject jsonParam = new JsonObject();
